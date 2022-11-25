@@ -13,7 +13,7 @@ public class Coin {
     {
         for(int i=0;i<imgCoin.length;i++)
         {
-            imgCoin[i] = new ImageIcon(this.getClass().getResource("./"+(i+1)+".png"));
+            imgCoin[i] = new ImageIcon(this.getClass().getResource((i+1)+".png"));
         }
         coinMove = new Thread(new Runnable(){
             @Override

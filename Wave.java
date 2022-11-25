@@ -9,7 +9,7 @@ public class Wave {
     public int width = 100;
     public int height  =100;
     public Thread waveMove;
-    public ImageIcon imgWave = new ImageIcon(this.getClass().getResource("./wave.png"));
+    public ImageIcon imgWave = new ImageIcon(this.getClass().getResource("wave.png"));
     public Wave(JPanel game)
     {
         xStart = x;

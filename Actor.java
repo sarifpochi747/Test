@@ -20,7 +20,7 @@ public class Actor{
         yStart = y;
         for(int i=0;i<9;i++)
         {
-            imgActor[i] = new ImageIcon(this.getClass().getResource("./a"+(i+1)+".png"));
+            imgActor[i] = new ImageIcon(this.getClass().getResource("a"+(i+1)+".png"));
         }
     }
     

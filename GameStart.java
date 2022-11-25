@@ -3,12 +3,12 @@ import java.awt.Graphics;
 import javax.swing.*;
 
 public class GameStart extends JPanel {
-    public ImageIcon imgHome = new ImageIcon(this.getClass().getResource("./bgstart.jpg"));
-    public ImageIcon imgbtnStart = new ImageIcon(this.getClass().getResource("./btnStart.png"));
-    public ImageIcon imgbtnExit = new ImageIcon(this.getClass().getResource("./exit.png"));
+    public ImageIcon imgHome = new ImageIcon(this.getClass().getResource("bgstart.jpg"));
+    public ImageIcon imgbtnStart = new ImageIcon(this.getClass().getResource("btnStart.png"));
+    public ImageIcon imgbtnExit = new ImageIcon(this.getClass().getResource("exit.png"));
     public JButton btnStart = new JButton(imgbtnStart);
     public JButton btnExit = new JButton(imgbtnExit);
-    public ImageIcon gimg = new ImageIcon(this.getClass().getResource("./Picture1.png"));
+    public ImageIcon gimg = new ImageIcon(this.getClass().getResource("Picture1.png"));
     
     
     public GameStart()

@@ -6,12 +6,12 @@ import java.util.*;
 import javax.swing.*;
 public class GamePlay extends JPanel implements ActionListener{
     
-    private ImageIcon imgbg = new ImageIcon(this.getClass().getResource("./bgplay.jpg"));
-    private ImageIcon imgPause = new ImageIcon(this.getClass().getResource("./pause.png"));
-    private ImageIcon imgPlay = new ImageIcon(this.getClass().getResource("./play.png"));
+    private ImageIcon imgbg = new ImageIcon(this.getClass().getResource("bgplay.jpg"));
+    private ImageIcon imgPause = new ImageIcon(this.getClass().getResource("pause.png"));
+    private ImageIcon imgPlay = new ImageIcon(this.getClass().getResource("play.png"));
     
-    public ImageIcon gameOver = new ImageIcon(this.getClass().getResource("./gameOver.jpg"));
-    public ImageIcon imgreplay = new ImageIcon(this.getClass().getResource("./replay.png"));
+    public ImageIcon gameOver = new ImageIcon(this.getClass().getResource("gameOver.jpg"));
+    public ImageIcon imgreplay = new ImageIcon(this.getClass().getResource("replay.png"));
     public JButton btnreplay = new JButton(imgreplay);
     
     private JButton BPause = new JButton(imgPause);
